@@ -10,10 +10,10 @@ file.close()
 color_data = json.loads(dataStr)
 
 
-# # 1
-# for i in range(len(color_data)):
-#     print("\n" + color_data[i]["name"])
-#     print(color_data[i]["family"])
+# 1
+for i in range(len(color_data)):
+    r = color_data[i]["r"]
+    print(f"{r}")
 
 # # 2
 # for i in range(len(color_data)):
